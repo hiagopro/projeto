@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button.destaque {
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button.destaque:hover {
+    background-color: purple;
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+  }
+body{
+    background-color: black;
+    overflow:hidden;
+}  
+  
